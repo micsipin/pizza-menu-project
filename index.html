@@ -5,7 +5,7 @@
 		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
 		<meta content="width=device-width,initial-scale=1.0" name="viewport">
 		<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-        <link rel="stylesheet" href="./css/pizza.css">
+        <link rel="stylesheet" href="css/pizza.css">
 	</head>
 	
 	<body bg="white">	
@@ -21,17 +21,17 @@
 				</div>
 				<div class="crust">
 					<h2>Crust</h2>
-					<input class="crust" type="radio" name="crust" value="Plain Crust"> Plain<br>
+					<input class="crust" type="radio" name="crust" value="Plain Crust" checked> Plain<br>
 					<input class="crust" type="radio" name="crust" value="Garlic Butter Crust"> Garlic Butter<br>
 					<input class="crust" type="radio" name="crust" value="Cheese Stuffed Crust"> Cheese Stuffed<br>
 					<input class="crust" type="radio" name="crust" value="Spicy Crust"> Spicy<br>	
-					<input class="crust" type="radio" name="crust" value="House Crust" checked> House Special<br>
+					<input class="crust" type="radio" name="crust" value="House Crust"> House Special<br>
 				</div>
 				<div class="sauce">
 					<h2>Sauce</h2>				
-					<input class="sauce" type="radio" name="sauce" value="Marinara"> Marinara<br>
+					<input class="sauce" type="radio" name="sauce" value="Marinara" checked> Marinara<br>
 					<input class="sauce" type="radio" name="sauce" value="White"> White<br>
-					<input class="sauce" type="radio" name="sauce" value="BBQ" checked> BBQ<br>
+					<input class="sauce" type="radio" name="sauce" value="BBQ"> BBQ<br>
 					Amount</br>
 						<select name="amount">
 						<option value="reg" selected>Regular</option>
@@ -43,17 +43,17 @@
 				<div class="cheese">
 				<h2>Cheese</h2>
 					<input class="cheese" type="radio" name="cheese" value="Regular" checked> Regular<br>
-					<input class="cheese" type="radio" name="size" value="extra cheese"> Extra<br>
-					<input class="cheese" type="radio" name="size" value="no cheese"> None<br>			
+					<input class="cheese" type="radio" name="cheese" value="Extra Cheese"> Extra<br>
+					<input class="cheese" type="radio" name="cheese" value="No Cheese"> None<br>			
 				</div>
 				<div class="meats">
 					<h2>Meats</h2>	
 					<input class="meats" type="checkbox" name="meat" value="Pepperoni"> Pepperoni<br>
-					<input class="meats" type="checkbox" name="meat" value="sausage"> Sausage<br>
-					<input class="meats" type="checkbox" name="meat" value="canadianBacon" > Canadian Bacon<br>
-					<input class="meats" type="checkbox" name="meat" value="groundBeef"> Ground Beef<br>
-					<input class="meats" type="checkbox" name="meat" value="anchovy"> Anchovy<br>
-					<input class="meats" type="checkbox" name="meat" value="chicken"> Chicken<br>
+					<input class="meats" type="checkbox" name="meat" value="Sausage"> Sausage<br>
+					<input class="meats" type="checkbox" name="meat" value="Canadian Bacon" > Canadian Bacon<br>
+					<input class="meats" type="checkbox" name="meat" value="Ground Beef"> Ground Beef<br>
+					<input class="meats" type="checkbox" name="meat" value="Anchovy"> Anchovy<br>
+					<input class="meats" type="checkbox" name="meat" value="Chicken"> Chicken<br>
 					Amount<br>
 						<select name="amount">
 							<option value="reg" selected>Regular</option>
@@ -63,13 +63,13 @@
 				</div>
 				<div class="veggies">
 					<h2>Veggies</h2>				
-					<input class="veggies" type="checkbox" name="veggies" value="tomatoes"> Tomatoes<br>
-					<input class="veggies" type="checkbox" name="veggies" value="onions"> Onions<br>
-					<input class="veggies" type="checkbox" name="veggies" value="greenPeppers">Green Peppers<br>	
-					<input class="veggies" type="checkbox" name="veggies" value="mushrooms">Mushrooms<br>	
-					<input class="veggies" type="checkbox" name="veggies" value="pineapple">Pineapple<br>
-					<input class="veggies" type="checkbox" name="veggies" value="spinach">Spinach<br>	
-					<input class="veggies" type="checkbox" name="veggies" value="jalapeno">Jalapeno<br>		  
+					<input class="veggies" type="checkbox" name="veggies" value="Tomatoes"> Tomatoes<br>
+					<input class="veggies" type="checkbox" name="veggies" value="Onions"> Onions<br>
+					<input class="veggies" type="checkbox" name="veggies" value="Green Peppers">Green Peppers<br>	
+					<input class="veggies" type="checkbox" name="veggies" value="Mushrooms">Mushrooms<br>	
+					<input class="veggies" type="checkbox" name="veggies" value="Pineapple">Pineapple<br>
+					<input class="veggies" type="checkbox" name="veggies" value="Spinach">Spinach<br>	
+					<input class="veggies" type="checkbox" name="veggies" value="Jalapeno">Jalapeno<br>		  
 					Amount<br>
 						<select name="amount">
 							<option value="reg" selected>Regular</option>
@@ -91,11 +91,11 @@
 				<div class="total">
 				<div id="title1"><h2>You Ordered:</h2></div>
 				<div id="showText1"></div>
-				<div id="title2"><h3>Subtotal:</h3></div>
+				<div id="title2"><h2>Subtotal:</h2></div>
 				<div id="showText2"></div>
 				<h2>Order Total</h2><div id="totalPrice2"></div>
 				</div>
 			</div>
-		<script  src="/script.js"></script>
+		<script  src="js/pizzascript.js"></script>
 	</body>
 </html>
